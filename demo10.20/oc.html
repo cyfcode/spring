@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>光通讯</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=0.3">
+    <link rel="stylesheet" href="assets/frontend/css/reset.css">
+    <link rel="stylesheet" href="assets/frontend/css/oc.css">
+    <link rel="stylesheet" href="assets/frontend/css/common.css">
+    <script type="text/javascript" src="assets/frontend/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#slider .co').click(function () {
+                $(this).css({
+                    'background':'#ff5333'
+                }).siblings('.co').css({
+                    'background':'none'
+                })
+            });
+            $('#slider .back').css({
+                'background':'#ff5333'
+            }).click(function () {
+                $('#slider .business .one').show().siblings('.co').hide();
+            });
+            $('#slider .business .two').hide();
+            $('#slider .next').click(function () {
+                $(this).css({'background':'#ff5333'});
+                $('#slider .business .two').show().siblings('.co').hide();
+            });
+        })
+    </script>
+</head>
+<body>
+<div id="head" style="background-image: url(assets/frontend/images/new_bg1.jpg)">
+    <div class="box">
+        <div class="name">
+            <h1>I C C</h1>
+            <h3>Focus on Internet services</h3>
+        </div>
+        <div class="center">
+            <div class="menu">
+                <ul>
+                    <li style="border-bottom: 2px solid #FF5333;"><a href="">首页</a></li>
+                    <li><a href="./oc/business_expansion.html">业务扩展</a></li>
+                    <li><a href="./oc/pr_ac.html">业务流程</a></li>
+                    <li><a href="./oc/bi_content.html">业务内容</a></li>
+                    <li><a href="./oc/us.html">关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="slider">
+    <div class="box">
+        <div class="center">
+            <div class="topic">
+                <div class="text"><span style="color:#2e2e2e">业务</span>  <span style="color:#ff5333">内容</span></div>
+                <div class="click" style="background-image: url(assets/frontend/images/oc_icon.png)"></div>
+            </div>
+            <div class="business">
+                <div class="co one">
+                    <img src="assets/frontend/images/bi_co1.png" alt="" style="margin-left: 0">
+                    <img src="assets/frontend/images/bi_co2.jpg" alt="">
+                    <img src="assets/frontend/images/bi_co3.jpg" alt="">
+                    <img src="assets/frontend/images/bi_co4.jpg" alt="">
+                </div>
+                <div class="co two">
+                    <img src="assets/frontend/images/bus2.jpg" alt="" style="margin-left: 0">
+                    <img src="assets/frontend/images/bs2.png" alt="">
+                    <img src="assets/frontend/images/bs3.jpg" alt="">
+                    <img src="assets/frontend/images/bus4.png" alt="">
+                </div>
+            </div>
+            <div class="owl">
+                <div class="back co"></div>
+                <div class="next co"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="section">
+    <div class="box">
+        <div class="center">
+            <div class="pic" style="background-image: url(assets/frontend/images/tr_logo.gif)"></div>
+            <div class="text">
+                <p>Serve the <span>Chinese</span> in Japan</p>
+                <p>The most <span>professional</span> and <span>trustworthy</span> network communication service provider</p>
+            </div>
+            <div class="word">
+                <p>业务覆盖日本全境，拥有各大网络公司提供的千兆高速网络，随时随地享受网上冲浪.</p>
+                <p>无处不在的互联网连接，无繁琐工事，到手即用，无任何连接，彻底摆脱网线的烦恼，超广域的高速网络信号覆盖.</p>
+                <p>一对一服务，让您生活无忧，24小时在线随时随地解决您的问题.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="section1">
+    <div class="box">
+        <div class="center">
+            <div class="left">
+                <h1>Service</h1>
+                <hr>
+                <p>
+                    NTT:日本最大通信运营商，业务覆盖日本全境，相当于中国移动和中国电信；
+                    NTT主要提供电话、宽带、手机等服务；
+                    我们公司主要代理其宽带（光纤）、电话等业务。
+                </p>
+            </div>
+            <div class="right">
+                <div class="co cd">
+                    <h1>交通生活便利的不动产物件</h1>
+                    <p>在日本全国范围内，以学校、公司等重要场所为核心，沿电车线路辐射，提供生活、学习、出行便捷的不动产物件。</p>
+                </div>
+                <div class="det cd">
+                    <h1>来自软银(softbank)的优质手机网络</h1>
+                    <p> 软银（SoftBank）作为首选手机运营商，拥有高速、优质的移动网络。签约SoftBank手机还能享受来自运营商高额的手机机体费用补贴，以极低的价格拥有心仪的手机。</p>
+                </div>
+                <div class="det cd">
+                    <h1>各大网络公司提供的千兆高速网络</h1>
+                    <p>为客人申请由日本最大网络公司NTT提供，网速高达千兆的光纤宽带网络。
+                        高速，稳定，告别移动网络的流量限制，畅享与世界的无界互联。</p>
+                </div>
+                <div class="co cd">
+                    <h1>随时随地畅游的高速移动互联网</h1>
+                    <p>公司互联网业务覆盖日本全境，包括日本各大主流网络NTT、SoftBank、AU、 So-net、光GiGA等网络，让您随时随地畅享互联网。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="section2">
+    <div class="box" style="background-image: url(assets/frontend/images/section1.jpg)"></div>
+</div>
+<div id="section3">
+    <div class="box">
+        <div class="center">
+            <div class="top">
+                <h1>Our Business</h1>
+                <hr>
+                <p>我们拥有日本主流的光通讯资源，让您随时随地都可以享受到优质，贴心的互联网服务。</p>
+                <p>我们是最专业的华人生活管家！</p>
+            </div>
+            <div class="bot">
+                <div class="above det">
+                    <div class="co">
+                        <img src="assets/frontend/images/bs1.png" alt="">
+                        <h1>NTT</h1>
+                    </div>
+                    <div class="co">
+                        <img src="assets/frontend/images/bs2.png" alt="">
+                        <h1>SONET</h1>
+                    </div>
+                </div>
+                <div class="bottom det">
+                    <div class="co">
+                        <img src="assets/frontend/images/bs3.jpg" alt="">
+                        <h1>AU</h1>
+                    </div>
+                    <div class="co">
+                        <img src="assets/frontend/images/bs4.jpg" alt="">
+                        <h1>GIGA</h1>
+                    </div>
+                    <div class="co">
+                        <img src="assets/frontend/images/bs5.jpg" alt="">
+                        <h1>SOFTBANK</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer" style="background: black">
+    <div class="box">
+        <div class="center_box">
+            <div class="copyright record">
+                <a href="">关于我们</a>
+                <a href="">市场合作</a>
+                <a href="">诚聘英才</a>
+                <a href="">法律声明</a>
+                <a href="">客户服务</a>
+                <a href="">意见反馈</a>
+                <a href="" class="border_none">联系我们</a>
+            </div>
+            <div class="advice record">
+                <span> <strong>全国咨询电话:0571-851 67999</strong></span>&nbsp;
+                <span>投诉与建议: 0571-851 63555</span>
+            </div>
+            <div class="website record">
+                Copyright © 2000-2017  春芽科技  www.lany-it.com, All Rights Reserved 浙ICP备16044920号
+            </div>
+        </div>
+        <div class="code" style="background-image: url(assets/frontend/images/code_pic.jpg);"></div>
+        <div class="code" style="background-image: url(assets/frontend/images/service_pic.jpg);"></div>
+    </div>
+</div>
+</body>
+</html>

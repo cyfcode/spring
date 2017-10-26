@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Times, TimesNR, 'New Century Schoolbook', Georgia,
+  'New York', serif;
+}
+#head{
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  .box{
+    height: 58px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #fbf2eb;
+    .center{
+      width: 1125px;
+      height: 58px;
+      ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        li{
+          width: 100px;
+          height: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          a{
+            color: #4b4846;
+            font-weight: 600;
+          }
+        }
+        li:hover{
+          border-bottom: 2px solid #000000;
+        }
+      }
+    }
+  }
+}
+.footer{
+  width: 100%;
+  height: 180px;
+  border-radius: 3px;
+  margin-top: 15px;
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer .box{
+  width: 85%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .center_box{
+  width: 75%;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+.footer .center_box .record{
+  margin: 8px 0;
+  display: flex;
+  flex-direction: row;
+}
+.footer .copyright a{
+  color: #e0e0e0;
+  font-size: 14px;
+  padding: 0 15px;
+  border-right: 1px solid #8e99a0;
+}
+.footer .copyright a.border_none{
+  border:none;
+}
+.footer .advice{
+  text-align: center;
+}
+.footer .advice strong{
+  color: #ea6179;
+}
+.footer .website{
+  text-align: center;
+}
+.footer .code{
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+}

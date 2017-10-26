@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=0.3">
+    <title>业务扩展</title>
+    <link rel="stylesheet" href="../assets/frontend/oc_css/common.css">
+    <link rel="stylesheet" href="../assets/frontend/oc_css/business_expansion.css">
+    <script type="text/javascript" src="../assets/frontend/js/jquery-3.1.1.slim.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+             $("#section2 .box .change .circle li").mouseover(function () {
+                 $(this).css({'background':'#695e5c'}).siblings('li').css({'background':'#d8d8d8'});
+                var num = $(this).index();
+                $("#section2 .box .change .pic li").eq(num).show().siblings("li").hide();
+             });
+             setInterval(function () {
+                 $('#section2 .pic').append($('#section2 .pic li').first());
+             },4000)
+        })
+    </script>
+</head>
+<body>
+<div id="head">
+    <div class="box">
+        <div class="center">
+            <ul>
+                <li><a href="../oc.html">首页</a></li>
+                <li style="border-bottom: 2px solid #000000;"><a href="">业务扩展</a></li>
+                <li><a href="../oc/bi_content.html">业务内容</a></li>
+                <li><a href="../oc/pr_ac.html">业务成就</a></li>
+                <li><a href="../oc/us.html">关于我们</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="section1" style="background-image: url(../assets/frontend/images/be_new.jpg)"></div>
+<div id="section5">
+    <div class="box">
+        <div class="center">
+            <h1>We are attentive to our service and focus on our major</h1>
+            <h3>迎接变化，勇于创新</h3>
+            <hr>
+            <button onclick="location.href='./us.html'">ABOUT US</button>
+        </div>
+    </div>
+</div>
+<div id="section2">
+    <div class="box">
+        <div class="change">
+            <ul class="pic">
+                <li style="background-image: url(../assets/frontend/images/bus_ex8.png)">
+                </li>
+                <li style="background-image: url(../assets/frontend/images/bus_ex9.png)">
+                </li>
+                <li style="background-image: url(../assets/frontend/images/bus_ex2.jpg)">
+                </li>
+            </ul>
+            <ul class="circle">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="co det"></div>
+            <div class="co" style="background-image: url(../assets/frontend/images/bus_ex.jpg)"></div>
+        </div>
+    </div>
+</div>
+<div id="section3">
+    <div class="box">
+        <div class="center">
+            <hr>
+            <h1>Business Expansion</h1>
+            <hr>
+        </div>
+    </div>
+</div>
+<div id="section4">
+    <div class="box">
+        <div class="center">
+            <ul>
+                <li>
+                    <img src="../assets/frontend/images/bus_ex4.jpg" alt="">
+                    <h2>Intentions Services</h2>
+                </li>
+                <li>
+                    <img src="../assets/frontend/images/bus_ex5.jpg" alt="">
+                    <h2>Customer First</h2>
+                </li>
+                <li>
+                    <img src="../assets/frontend/images/bus_ex6.jpg" alt="">
+                    <h2>Your Satisfaction</h2>
+                </li>
+                <li>
+                    <img src="../assets/frontend/images/bus_ex7.jpg" alt="">
+                    <h2>My Ambition</h2>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer" style="background: black">
+    <div class="box">
+        <div class="center_box">
+            <div class="copyright record">
+                <a href="">关于我们</a>
+                <a href="">市场合作</a>
+                <a href="">诚聘英才</a>
+                <a href="">法律声明</a>
+                <a href="">客户服务</a>
+                <a href="">意见反馈</a>
+                <a href="" class="border_none">联系我们</a>
+            </div>
+            <div class="advice record">
+                <span><strong>全国咨询电话:0571-851 67999</strong></span>
+                <span>投诉与建议: 0571-851 63555</span>
+            </div>
+            <div class="website record">
+                Copyright © 2000-2017  春芽科技  www.lany-it.com, All Rights Reserved 浙ICP备12008791号
+            </div>
+        </div>
+        <div class="code" style="background-image: url(../assets/frontend/images/code_pic.jpg);"></div>
+        <div class="code" style="background-image: url(../assets/frontend/images/service_pic.jpg);"></div>
+    </div>
+</div>
+</body>
+</html>

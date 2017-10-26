@@ -1,0 +1,177 @@
+#section1 {
+  width: 100%;
+  height: 400px;
+  margin: 10px 10px;
+  background-size: cover;
+}
+#section2 {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#section2 .box {
+  width: 1140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#section2 .box .change {
+  position: relative;
+  width: 750px;
+}
+#section2 .box .change .pic {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#section2 .box .change .pic li {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+#section2 .box .change .pic li h1 {
+  font-size: 45px;
+  color: #FFFFFF;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+#section2 .box .change .pic li p {
+  width: 700px;
+  color: #FFFFFF;
+  font-size: 25px;
+  line-height: 45px;
+  margin-left: 20px;
+}
+#section2 .box .change .circle {
+  position: absolute;
+  bottom: 90px;
+  right: 25px;
+}
+#section2 .box .change .circle li {
+  width: 12px;
+  height: 12px;
+  margin: 5px 0;
+  border-radius: 8px;
+  background: #d8d8d8;
+}
+#section2 .box .right {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#section2 .box .right .co {
+  width: 100%;
+  height: 285px;
+  background-size: cover;
+}
+#section2 .box .right .det {
+  background-image: url("../images/bus_ex3.JPG");
+}
+#section3 {
+  height: 270px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#section3 .box {
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#section3 .box .center {
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#section3 .box .center h1 {
+  font-size: 50px;
+}
+#section3 .box .center hr {
+  width: 340px;
+}
+#section4 {
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#section4 .box {
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#section4 .box .center {
+  height: 290px;
+}
+#section4 .box .center ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#section4 .box .center ul li {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #ebebeb;
+  box-shadow: 5px 5px 5px #ebebeb;
+}
+#section4 .box .center ul li img {
+  width: 260px;
+  height: 185px;
+}
+#section4 .box .center ul li h2 {
+  font-size: 25px;
+  color: #595959;
+}
+/*新添加版面*/
+#section5 {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#section5 .box {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#section5 .box .center {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#section5 .box .center h1 {
+  text-align: center;
+}
+#section5 .box .center hr {
+  width: 300px;
+}
+#section5 .box .center button {
+  width: 170px;
+  height: 45px;
+  font-size: 15px;
+  font-weight: 600;
+}
+/*新添加版面*/

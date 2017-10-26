@@ -1,0 +1,335 @@
+*{
+  margin: 0;
+  padding:0;
+  text-decoration: none;
+  list-style: none;
+}
+/*版权区域开始*/
+.footer{
+  width: 100%;
+  height: 180px;
+  border-radius: 3px;
+  margin-top: 15px;
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer .box{
+  width: 85%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .center_box{
+  width: 75%;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+.footer .center_box .record{
+  margin: 8px 0;
+  display: flex;
+  flex-direction: row;
+}
+.footer .copyright a{
+  color: #e0e0e0;
+  font-size: 14px;
+  padding: 0 15px;
+  border-right: 1px solid #8e99a0;
+}
+.footer .copyright a.border_none{
+  border:none;
+}
+.footer .advice{
+  text-align: center;
+}
+.footer .advice strong{
+  color: #ea6179;
+}
+.footer .website{
+  text-align: center;
+}
+.footer .code{
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+}
+/*版权区域结束*/
+/*3D特效开始*/
+#stage {
+
+  width:200px; height:300px; position:relative; margin:0 auto; margin-top:150px;background:null;
+
+  -webkit-transform:rotateX(-10deg) rotateY(0deg) perspective(2000px);
+
+  -moz-transform:rotateX(-10deg) rotateY(0deg) perspective(2000px);
+
+  -ms-transform:rotateX(-10deg) rotateY(0deg) perspective(2000px);
+
+  -o-transform:rotateX(-10deg) rotateY(0deg) perspective(2000px);
+
+  transform:rotateX(-10deg) rotateY(0deg) perspective(2000px);
+
+
+
+  -webkit-transform-style:preserve-3d;
+
+  -moz-transform-style:preserve-3d;
+
+  -ms-transform-style:preserve-3d;
+
+  -o-transform-style:preserve-3d;
+
+  transform-style:preserve-3d;
+
+}
+
+#shadow {
+
+  position:absolute; left:50%; top:50%; width:1200px; height:1200px; margin-left:-600px; margin-top:-600px;
+
+
+
+  background:-webkit-radial-gradient(center center, 600px 600px ,rgba(50,50,50,1), rgba(0,0,0,0));
+
+  background:   -moz-radial-gradient(center center, 600px 600px ,rgba(50,50,50,1), rgba(0,0,0,0));
+
+  background:    -ms-radial-gradient(center center, 600px 600px ,rgba(50,50,50,1), rgba(0,0,0,0));
+
+  background:     -o-radial-gradient(center center, 600px 600px ,rgba(50,50,50,1), rgba(0,0,0,0));
+
+  background:        radial-gradient(center center, 600px 600px ,rgba(50,50,50,1), rgba(0,0,0,0));
+
+
+
+  -webkit-transform:translateY(200px) rotateX(90deg);
+
+  -moz-transform:translateY(200px) rotateX(90deg);
+
+  -ms-transform:translateY(200px) rotateX(90deg);
+
+  -o-transform:translateY(200px) rotateX(90deg);
+
+  transform:translateY(200px) rotateX(90deg);
+
+}
+
+
+
+#stage dd {
+
+
+
+  height:300px; width:200px; position:absolute; left:0; top:0; border:1px solid #666;
+
+
+
+  -webkit-transition:500ms all ease;
+
+  -moz-transition:500ms all ease;
+
+  -ms-transition:500ms all ease;
+
+  -o-transition:500ms all ease;
+
+  transition:500ms all ease;
+
+}
+
+.over {
+
+  position:absolute; left:0; top:320px; width:200px; height:300px; overflow:hidden;
+
+
+
+  -webkit-transition:2s all ease;
+
+  -moz-transition:2s all ease;
+
+  -ms-transition:2s all ease;
+
+  -o-transition:2s all ease;
+
+  transition:2s all ease;
+
+
+
+  -webkit-transform:scale(1,-1);
+
+  -moz-transform:scale(1,-1);
+
+  -ms-transform:scale(1,-1);
+
+  -o-transform:scale(1,-1);
+
+  transform:scale(1,-1);
+
+
+
+  background-size:100% 100%;
+
+  opacity:0;
+
+}
+/*3D特效结束*/
+ /*电信业务轮播图开始*/
+.slider {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 710px;
+  height: 445px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+}
+.slider-wrapper {
+  position: relative;
+}
+.slider .item {
+  float: left;
+  width: 710px;
+  height: 445px;
+}
+.slider .pic,
+.slider .pic img {
+  width: 100%;
+  height: 100%;
+}
+.slider-prev,
+.slider-next {
+  display: none;
+  position: absolute;
+  top: 196px;
+  width: 28px;
+  height: 40px;
+  background: url(../images/icon_sprite.png) no-repeat;
+}
+#slider:hover .slider-prev,
+#slider:hover .slider-next {
+  display: block;
+}
+.slider-prev {
+  left: 8px;
+  background-position: -542px -243px;
+}
+.slider-prev:hover {
+  background-position: -542px -293px;
+}
+.slider-next {
+  right: 8px;
+  background-position: -582px -243px;
+}
+.slider-next:hover {
+  background-position: -582px -293px;
+}
+.slider-title {
+  position: absolute;
+  left: 38px;
+  bottom: 30px;
+  width: 632px;
+  height: 64px;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 8px;
+  color: #fff;
+}
+.slider-title h2 {
+  display: inline-block;
+  padding: 0 18px;
+  font-size: 28px;
+  line-height: 64px;
+}
+.slider-title span {
+  font-size: 14px;
+}
+.slider-btns {
+  position: absolute;
+  right: 68px;
+  bottom: 56px;
+}
+.slider-btns .item {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  background: url(../images/icon_sprite.png) -622px -244px no-repeat;
+  cursor: pointer;
+}
+.slider-btns .item-cur {
+  background-position: -642px -244px;
+}
+.banner-info {
+  position: relative;
+  float: right;
+  height: 445px;
+}
+.banner-info a {
+  display: inline-block;
+}
+.banner-info .news {
+  width: 466px;
+  height: 290px;
+  margin-bottom: 20px;
+}
+.banner-info .news ul {
+  padding: 0 32px;
+}
+.banner-info .news li {}
+.banner-info .news li.title,
+.banner-info .news li.choose,
+.banner-info .news li.assistant {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ebebeb;
+}
+.banner-info .news li.title {
+  font-size: 16px;
+  color: #666;
+}
+.banner-info .news li.link {
+  padding: 18px 0;
+  border-bottom: 1px dashed #ebebeb;
+  font-size: 0;
+}
+.banner-info .news li.link a {
+  font-size: 13px;
+  line-height: 24px;
+}
+.banner-info .news li.link span {
+  display: inline-block;
+  line-height: 24px;
+  width: 1px;
+  height: 12px;
+  margin: 0 16px;
+  background-color: #ddd;
+}
+.banner-info .news li.choose {}
+.banner-info .news li.choose a {}
+.banner-info .news li.choose span {
+  width: 32px;
+  height: 20px;
+  margin-left: 5px;
+  line-height: 20px;
+  font-size: 12px;
+}
+.banner-info .news li.assistant {
+  border-bottom: none;
+}
+.banner-info .news li.assistant a {
+  padding-left: 10px;
+}
+.banner-info .app {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 466px;
+  height: 130px;
+}
+.banner-info .app a {
+  width: 466px;
+  height: 130px;
+}
+/*电信业务轮播图结束*/

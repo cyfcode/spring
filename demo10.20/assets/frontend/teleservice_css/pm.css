@@ -1,0 +1,116 @@
+body {
+  background: #3498db;
+}
+#head {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#head .box {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#head .box img {
+  width: 40px;
+  height: 40px;
+}
+#section {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#section .box {
+  width: 1300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#section .box .center {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#section .box .center h1 {
+  font-size: 70px;
+  margin-right: 30px;
+}
+#section1 {
+  height: 420px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#section1 .box {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#section1 .box .center {
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #FFFFFF;
+}
+#section1 .box .center span {
+  font-size: 38px;
+  color: #FFFFFF;
+}
+#section2 {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#section2 .box {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#section2 .box .center {
+  height: 475px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#section2 .box .center .top {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#section2 .box .center .bot {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#section2 .box .center .bot h1 {
+  color: #FFFFFF;
+}
+#section2 .box .center .bot p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+#section3 {
+  height: 460px;
+  background-position: center;
+  background-size: cover;
+}
